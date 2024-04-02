@@ -44,9 +44,16 @@ let url = 'https://randomuser.me/api/';
     // 
     // console.log(Math.floor(Math.random () * 5000) + 1);
 
+    ['Doctor', 'Teacher', 'Lawyer', 'pilot', 'Business man', 'Banker']
 
     let randomFollowerCount = Math.floor(Math.random() * 5000);
     followers.innerHTML = "<b>" + randomFollowerCount + "</b>" + "<br>followers";
+
+    let randomFollowingCount = Math.floor(Math.random() * 1000);
+    following.innerHTML = "<b>" + randomFollowingCount + "</b>" + "<br>following";
+
+    let randomExperience = Math.floor(Math.random() * 10);
+    experience.innerHTML = randomExperience + ' ' + 'years' + ' ' + 'experience';
 
     // function randNum(min, max) {
     //     min = Math.ceil(min);
