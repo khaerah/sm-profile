@@ -10,8 +10,8 @@
  img{
     border-radius: 50%;
     margin-right: 80px;
-    width: 150px;
-    height: 150px;
+    /* width: 150px; */
+    /* height: 120px; */
  }
 
  #person{
@@ -92,7 +92,9 @@
    background-color: #fff;
    padding-right: 50px;
    right: 190PX;
-   width: 90px;
+   width: 100px;
+   padding-left: 20px;
+   /* margin-right: 300px; */
 
  }
 

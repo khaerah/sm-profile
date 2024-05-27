@@ -11,6 +11,7 @@ let phoneNumber = document.getElementById('phone');
 let info = document.getElementById('information');
 let followers = document.getElementById('follow')
 // let num = document.getElementsById('follow')
+let jobElement = document.getElementById('main-image');
 
 
 
@@ -44,7 +45,13 @@ let url = 'https://randomuser.me/api/';
     // 
     // console.log(Math.floor(Math.random () * 5000) + 1);
 
-    ['Doctor', 'Teacher', 'Lawyer', 'pilot', 'Business man', 'Banker']
+  let jobRole = ['Doctor', 'Teacher', 'Lawyer', 'Pilot', 'Business man', 'Banker']
+  let jobSelector = Math.floor(Math.random() * 5) + 1;
+  jobElement.children[1].children[1].innerHTML = jobRole[jobSelector]
+  console.log()
+//   let job = Doctor;
+
+    let  = Math.floor(Math.random() * 5000);
 
     let randomFollowerCount = Math.floor(Math.random() * 5000);
     followers.innerHTML = "<b>" + randomFollowerCount + "</b>" + "<br>followers";
